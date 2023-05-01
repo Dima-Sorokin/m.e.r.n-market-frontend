@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+:root {
+  --primary: #1aac83;
+  --error: rgba(255, 0, 0, 0.747);
+}
+
+body {
+  background: rgb(208, 208, 208);
+  margin: 0;
+  font-family: "poppins";
+}
+
+header {
+  background: rgb(102, 102, 102);
+  box-shadow: 1px 1px 8px 1px rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.container a {
+  color: rgb(0, 0, 0);
+  font-size: large;
+  text-decoration: none;
+  background-color: whitesmoke;
+  border-radius: 3px;
+  padding: 5px;
+  box-shadow: 1px 1px 3px rgb(0, 0, 0);
+  text-shadow: 0.5px 0.5px 3px rgb(145, 145, 145);
+}
+
+.container a:hover {
+  box-shadow: 1.5px 1.5px 3px rgb(0, 0, 0);
+}
+
+.container a:active {
+  box-shadow: 1.5px 1.5px 3px rgb(0, 0, 0) inset;
+}
+
+.container a.active {
+  background-color: rgb(51, 51, 51);
+  color: whitesmoke;
+  box-shadow: 1px 1px 5px rgb(112, 255, 93);
+  text-shadow: 0.5px 0.5px 3px rgb(30, 255, 0);
+  ;
+}
+
+
+
+.pages {
+  margin: 0;
+  padding: 20px;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 100px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  margin: auto;
+
+}
+
+.product-details {
+  background: #e1e1e1;
+  border-radius: 5px;
+  margin: 20px auto;
+  margin-top: 0;
+  padding: 20px;
+  position: relative;
+  box-shadow: 1px 1px 3px 1px black;
+  width: 200px;
+  cursor: pointer;
+}
+
+.product-details h4 {
+  margin: 0 0 10px 0;
+
+  color: var(--primary);
+}
+
+.product-details p {
+  margin: 0 auto;
+}
+
+form.create {
+  margin: 0;
+  padding: 10px;
+  box-shadow: 1px 1px 3px 1px rgb(58, 58, 58);
+  border-radius: 3px;
+}
+
+label, input {
+  display: block;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea{
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form button {
+  background: var(--primary);
+  border: 0;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: large;
+  width: 100%;
+  margin: 10px 0;
+}
+
+form button:hover {
+  box-shadow: 1px 1px 3px 1px black;
+}
+
+form button:active {
+  box-shadow: 1px 1px 3px 1px black inset;
+}
+
+div.error {
+  padding: 10px;
+  background: whitesmoke;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+div.seccess {
+  padding: 10px;
+  background: whitesmoke;
+  border: 1px solid rgb(0, 0, 255);
+  color: rgb(0, 0, 23);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+button.deletBtn {
+  border-radius: 5px;
+  background-color: rgb(61, 61, 61);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: large;
+  cursor: pointer;
+  float: right;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+button.deletBtn:hover {
+  box-shadow: 1px 1px 2px 1px rgb(145, 108, 108);
+}
+
+button.deletBtn:active {
+  box-shadow: 2px 2px 4px 2px rgb(0, 0, 0) inset;
+}
+
+input.error {
+  border: 1px solid var(--error);
+}

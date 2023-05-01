@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Dima-Sorokin/Marketplace.git/static/css/main.fdad69bd.css",
+    "main.js": "/Dima-Sorokin/Marketplace.git/static/js/main.daf94e5a.js",
+    "index.html": "/Dima-Sorokin/Marketplace.git/index.html",
+    "main.fdad69bd.css.map": "/Dima-Sorokin/Marketplace.git/static/css/main.fdad69bd.css.map",
+    "main.daf94e5a.js.map": "/Dima-Sorokin/Marketplace.git/static/js/main.daf94e5a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdad69bd.css",
+    "static/js/main.daf94e5a.js"
+  ]
+}
